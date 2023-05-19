@@ -5,8 +5,8 @@ paleblue:#d0ebff
 primarygrey:#868e96
 
 
-font size: p 1.6rem 
-quotes 1.8rem
+font size: p 1.8rem 
+quotes 1.6rem
 
 
 
@@ -33,7 +33,7 @@ html {
 }
 
 .header {
-  margin-top: 3rem;
+  margin: 3rem auto 9.6rem auto;
 }
 .navigation {
   display: flex;
@@ -117,11 +117,13 @@ html {
 
 .blue-heading::before {
   bottom: 0.5rem;
+  left: 5rem;
   width: 30rem;
   transform: rotate(-5deg);
 }
 .blue-heading:after {
   bottom: 0;
+  left: 5rem;
   width: 30rem;
   transform: rotate(178deg);
 }
@@ -129,8 +131,8 @@ html {
 .main-heading::after {
   position: absolute;
   bottom: 1.6rem;
-  right: 7rem;
-  width: 41rem;
+  right: 6rem;
+  width: 42rem;
   transform: rotate(179deg);
 }
 
@@ -165,7 +167,7 @@ html {
 .head-btn-2:link,
 .head-btn-2:visited {
   padding: 1.6rem 2.2rem;
-  border: 1px solid #228be6;
+  border: 1px solid transparent;
   color: #555;
   border-radius: 40px;
   font-size: 1.6rem;
@@ -176,7 +178,7 @@ html {
 }
 .head-btn-2:hover,
 .head-btn-2:active {
-  border: 2px solid #228be6;
+  border: 1px solid #228be6;
 }
 .header-blockquote {
   margin-top: 6.4rem;
@@ -197,6 +199,7 @@ html {
 .quote-name {
   font-size: 1.6rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 .quote-name-text {
   font-size: 1.6rem;
