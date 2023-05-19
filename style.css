@@ -445,3 +445,18 @@ h2 {
 .last-tick-text {
   margin-bottom: 5rem;
 }
+
+/* ///////////////////////////////////////// */
+/* SECTION Diverse*/
+/* //////////////////////////////////////////// */
+.section-Diverse {
+  margin-bottom: 9.6rem;
+}
+.diverse-spliter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.diverse-img {
+  width: 40rem;
+  height: 100%;
+}
