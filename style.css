@@ -496,6 +496,7 @@ h2 {
   box-shadow: 5px 5px 10px #d0ebff;
   border-radius: 15px;
   padding: 2rem;
+  max-width: 30rem;
 }
 .imgPerson {
   display: flex;
@@ -532,4 +533,5 @@ h2 {
 .testimonies {
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
