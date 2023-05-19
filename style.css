@@ -366,15 +366,53 @@ h2 {
 /* ///////////////////////////////////////// */
 /* SECTION MOTIVATION*/
 /* //////////////////////////////////////////// */
+.section-motivation {
+  margin-bottom: 9.6rem;
+}
 .motivation-spliter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .motivation-img {
-  width: 30rem;
+  width: 50rem;
+  border-radius: 20px;
+}
+.motiv-right {
+  justify-self: end;
+  position: relative;
+}
+.motiv-quote {
+  width: 35rem;
+  background-color: #fff;
+  padding: 2.4rem 1rem 1rem 2rem;
+  box-shadow: 5px 5px 10px #d0ebff;
+
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(10%, 50%);
+}
+.motiv-right-text-1 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.motiv-quote-person {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 .motiv-kassandra-img {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
+}
+.motiv-right-text-2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.motiv-right-text-3 {
+  font-size: 1.6rem;
 }
