@@ -178,6 +178,7 @@ h2 {
 .head-btn-2:visited {
   padding: 1.6rem 2.2rem;
   border: 1px solid transparent;
+  box-shadow: 2px 2px 2px #ccc;
   color: #555;
   border-radius: 40px;
   font-size: 1.6rem;
@@ -189,6 +190,7 @@ h2 {
 .head-btn-2:hover,
 .head-btn-2:active {
   border: 1px solid #228be6;
+  box-shadow: none;
 }
 .header-blockquote {
   margin-top: 6.4rem;
@@ -375,6 +377,7 @@ h2 {
 }
 .motivation-img {
   width: 50rem;
+  height: 100%;
   border-radius: 20px;
 }
 .motiv-right {
@@ -415,4 +418,30 @@ h2 {
 }
 .motiv-right-text-3 {
   font-size: 1.6rem;
+}
+
+.motiv-heading {
+  margin-bottom: 4.2rem;
+}
+
+.motivTexts {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 3.6rem;
+}
+.tick-text {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.check-icon {
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #228be6;
+  border-radius: 50%;
+}
+.last-tick-text {
+  margin-bottom: 5rem;
 }
