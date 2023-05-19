@@ -91,14 +91,50 @@ html {
 .header-left {
   padding: 0 8rem 0 0;
 }
-h1 {
+.main-heading {
   font-size: 5.6rem;
   line-height: 1.2;
   margin-bottom: 3.6rem;
+  position: relative;
+  z-index: 10;
 }
+/* ///////////////////////////////////////// */
+/* blueheading */
+/* //////////////////////////////////////////// */
 .blue-heading {
   color: #228be6;
 }
+.blue-heading::before,
+.blue-heading:after,
+.main-heading::after {
+  content: "";
+  display: block;
+  height: 0.6rem;
+  background-color: #d0ebff;
+  position: absolute;
+  z-index: -1;
+}
+
+.blue-heading::before {
+  bottom: 0.5rem;
+  width: 30rem;
+  transform: rotate(-5deg);
+}
+.blue-heading:after {
+  bottom: 0;
+  width: 30rem;
+  transform: rotate(178deg);
+}
+
+.main-heading::after {
+  position: absolute;
+  bottom: 1.6rem;
+  right: 7rem;
+  width: 41rem;
+  transform: rotate(179deg);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
 .header-text-1 {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -170,14 +206,26 @@ h1 {
   justify-self: end;
   position: relative;
 }
+
 .header-right-img {
   height: 100%;
   width: 35rem;
   border-radius: 10px;
 }
+.arrow-icon {
+  position: absolute;
+  color: #228be6;
+  font-size: 6rem;
+  font-weight: 400;
+  top: -5rem;
+  left: -4rem;
+  transform: rotate(320deg);
+}
 
 .blured-circle {
-  background-color: rgba(255, 0, 0, 0.515);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 4px rgba(204, 204, 204, 0.5);
+  filter: blur(1px);
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
