@@ -369,7 +369,7 @@ h2 {
 /* SECTION MOTIVATION*/
 /* //////////////////////////////////////////// */
 .section-motivation {
-  margin-bottom: 9.6rem;
+  margin-bottom: 13rem;
 }
 .motivation-spliter {
   display: grid;
@@ -457,6 +457,16 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 .diverse-img {
-  width: 40rem;
-  height: 100%;
+  width: 43rem;
+  height: 38rem;
+  border-radius: 5%;
+}
+
+.diverse-right {
+  align-self: center;
+}
+.diverse-text {
+  margin: 3.6rem 0 4.6rem 0;
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
