@@ -527,5 +527,9 @@ h2 {
 .columns-testimonies {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
+}
+.testimonies {
+  display: flex;
   gap: 2rem;
 }
