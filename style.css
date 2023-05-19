@@ -8,6 +8,8 @@ primarygrey:#868e96
 font size: p 1.8rem 
 quotes 1.6rem
 
+marginbottom:3.6rem 9.6rem
+
 
 
 */
@@ -267,4 +269,29 @@ html {
 .study-hours-text-2 {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+/* ///////////////////////////////////////// */
+/* SECTION PLATFORMS*/
+/* //////////////////////////////////////////// */
+.platforms {
+  margin-bottom: 9.6rem;
+}
+.platform-text {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #868e96;
+  margin-bottom: 3.6rem;
+}
+
+.platform-logos {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.platform-logo {
+  height: 7rem;
+  filter: grayscale(100%);
+  opacity: 50%;
 }
