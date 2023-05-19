@@ -492,3 +492,40 @@ h2 {
   line-height: 1.6;
   margin: 3.2rem auto 5rem auto;
 }
+.test-testimony {
+  box-shadow: 5px 5px 10px #d0ebff;
+  border-radius: 15px;
+  padding: 2rem;
+}
+.imgPerson {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.test-img-person {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+.nameOfPerson {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.blue-name {
+  font-size: 1.6rem;
+  color: #228be6;
+}
+.actual-testimony {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.test-blue {
+  color: #228be6;
+}
+.columns-testimonies {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
