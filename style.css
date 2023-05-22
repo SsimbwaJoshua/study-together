@@ -2,6 +2,7 @@
 /* 
 primaryblue: #228be6
 paleblue:#d0ebff
+questionblue:#a5d8ff
 primarygrey:#868e96
 
 
@@ -546,4 +547,57 @@ h2 {
 .T-btn-2 {
   text-align: center;
   margin-top: 6.4rem;
+}
+
+/* ///////////////////////////////////////// */
+/* SECTION QUESTIONS*/
+/* //////////////////////////////////////////// */
+
+.section-questions {
+  margin-bottom: 9.6rem;
+}
+.question-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ques-para-1 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 3.2rem;
+}
+.question-block {
+  border: 2px solid #a5d8ff;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 70rem;
+  margin: 5.4rem auto 0 auto;
+  text-align: start;
+}
+.question-sign {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #228be6;
+  font-weight: 600;
+}
+.question-block-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-top: 2.4rem;
+  margin-right: 6.4rem;
+}
+
+.question {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 550;
+  line-height: 1.6;
+  width: 70rem;
+  border: 1px solid #d0ebff;
+  border-radius: 15px;
+  padding: 2rem;
 }
