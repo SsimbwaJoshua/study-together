@@ -43,6 +43,9 @@ h2 {
   margin: 0 auto;
   padding: 0 6.4rem;
 }
+.scetion-margin-bottom {
+  margin-bottom: 13rem;
+}
 
 .header {
   margin: 3rem auto 9.6rem auto;
@@ -599,7 +602,71 @@ h2 {
   font-weight: 600;
   line-height: 1.6;
   width: 70rem;
-  border: 1px solid #d0ebff;
+  border: 1px solid #dee2e6;
   border-radius: 15px;
   padding: 2.4rem;
+}
+
+/* ///////////////////////////////////////// */
+/* SECTION JOIN*/
+/* //////////////////////////////////////////// */
+.section-Join {
+  margin-bottom: 13rem;
+}
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.head-blue {
+  color: #228be6;
+}
+
+.join-btns {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 4.8rem;
+}
+
+/* ///////////////////////////////////////// */
+/* SECTION FOOTER*/
+/* //////////////////////////////////////////// */
+.foot-container {
+  border-top: 2px solid #d0ebff;
+  padding-top: 4.8rem;
+}
+.foot-spliter {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-left {
+  max-width: 20rem;
+}
+.foot-right {
+  display: flex;
+  gap: 10rem;
+}
+.foot-link-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.4rem;
+}
+.foot-link {
+  margin-top: 1.3rem;
+  font-size: 1.6rem;
+  line-height: 2;
+  display: block;
+}
+.last-text {
+  margin: 3.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: #868e96;
+  font-size: 1.6rem;
+}
+
+.scetion-margin-bottom {
+  margin-bottom: 13rem;
 }
