@@ -25,6 +25,7 @@ marginbottom:3.6rem 9.6rem
 }
 html {
   font-size: 62.5%;
+  /* font-family: rubik; */
 }
 .body {
   color: #555;
@@ -564,7 +565,7 @@ h2 {
 }
 .ques-para-1 {
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-top: 3.2rem;
 }
 .question-block {
@@ -587,17 +588,18 @@ h2 {
   line-height: 1.8;
   margin-top: 2.4rem;
   margin-right: 6.4rem;
+  color: #868e96;
 }
 
 .question {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   font-size: 1.8rem;
-  font-weight: 550;
+  font-weight: 600;
   line-height: 1.6;
   width: 70rem;
   border: 1px solid #d0ebff;
   border-radius: 15px;
-  padding: 2rem;
+  padding: 2.4rem;
 }
