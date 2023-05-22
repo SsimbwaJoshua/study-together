@@ -25,7 +25,7 @@ marginbottom:3.6rem 9.6rem
 }
 html {
   font-size: 62.5%;
-  /* font-family: rubik; */
+  font-family: Inter;
 }
 .body {
   color: #555;
@@ -57,18 +57,25 @@ h2 {
 }
 .left-nav {
   display: flex;
+  align-items: center;
   gap: 20rem;
+}
+.main-icon {
+  width: 2.8rem;
+  height: 2.4rem;
 }
 .nav-together {
   display: flex;
-  gap: 2rem;
-  font-size: 1.8rem;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.6rem;
   line-height: 1.6;
+  font-weight: 600;
 }
 .nav-links {
   display: flex;
   gap: 7rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
 .nav-link:visited,
@@ -84,7 +91,7 @@ h2 {
 }
 .login-btn:link,
 .login-btn:visited {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   cursor: pointer;
   text-decoration: none;
@@ -101,7 +108,7 @@ h2 {
 
 .header-spliter {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 .header-left {
   padding: 0 8rem 0 0;
@@ -132,29 +139,29 @@ h2 {
 
 .blue-heading::before {
   bottom: 0.5rem;
-  left: 5rem;
-  width: 30rem;
+  left: 8rem;
+  width: 35rem;
   transform: rotate(-5deg);
 }
 .blue-heading:after {
   bottom: 0;
-  left: 5rem;
-  width: 30rem;
+  left: 8rem;
+  width: 40rem;
   transform: rotate(178deg);
 }
 
 .main-heading::after {
   position: absolute;
   bottom: 1.6rem;
-  right: 6rem;
-  width: 42rem;
+  right: 2rem;
+  width: 53rem;
   transform: rotate(179deg);
 }
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 .header-text-1 {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.6;
   margin-bottom: 3.6rem;
 }
 .head-btns {
@@ -165,11 +172,11 @@ h2 {
 }
 .head-btn-1:link,
 .head-btn-1:visited {
-  padding: 1.6rem 2.2rem;
+  padding: 1.6rem 3rem;
   color: white;
   background-color: #228be6;
   border-radius: 40px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -181,12 +188,12 @@ h2 {
 }
 .head-btn-2:link,
 .head-btn-2:visited {
-  padding: 1.6rem 2.2rem;
+  padding: 1.6rem 3rem;
   border: 1px solid transparent;
   box-shadow: 2px 2px 2px #ccc;
   color: #555;
   border-radius: 40px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -201,7 +208,7 @@ h2 {
   margin-top: 6.4rem;
 }
 .header-quote-text-1 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-bottom: 2.4rem;
 }
@@ -214,12 +221,12 @@ h2 {
   border-radius: 50%;
 }
 .quote-name {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .quote-name-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .header-right {
@@ -229,14 +236,14 @@ h2 {
 
 .header-right-img {
   height: 100%;
-  width: 35rem;
+  width: 100%;
   border-radius: 10px;
 }
 .arrow-icon {
   position: absolute;
   color: #228be6;
   font-size: 6rem;
-  font-weight: 400;
+  /* font-weight: 400; */
   top: -5rem;
   left: -4rem;
   transform: rotate(320deg);
@@ -279,22 +286,22 @@ h2 {
   align-items: start;
 }
 .study-hours-text-1 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .study-hours-text-2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
 /* ///////////////////////////////////////// */
 /* SECTION PLATFORMS*/
 /* //////////////////////////////////////////// */
-.platforms {
+/* .platforms {
   margin-bottom: 9.6rem;
-}
+} */
 .platform-text {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   color: #868e96;
   margin-bottom: 4.2rem;
@@ -314,16 +321,16 @@ h2 {
 /* ///////////////////////////////////////// */
 /* SECTION HOW IT WORKS*/
 /* //////////////////////////////////////////// */
-.how-it-works {
+/* .how-it-works {
   margin-bottom: 9.6rem;
-}
+} */
 .working-h2 {
   text-align: center;
 }
 .working-Text-0 {
   text-align: center;
   margin-top: 3.6rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 .working-carts {
@@ -366,16 +373,16 @@ h2 {
 }
 .working-text-2 {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
 
 /* ///////////////////////////////////////// */
 /* SECTION MOTIVATION*/
 /* //////////////////////////////////////////// */
-.section-motivation {
+/* .section-motivation {
   margin-bottom: 13rem;
-}
+} */
 .motivation-spliter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -402,7 +409,7 @@ h2 {
   transform: translate(10%, 50%);
 }
 .motiv-right-text-1 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -417,12 +424,12 @@ h2 {
   border-radius: 50%;
 }
 .motiv-right-text-2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .motiv-right-text-3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .motiv-heading {
@@ -430,18 +437,19 @@ h2 {
 }
 
 .motivTexts {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 3.6rem;
 }
 .tick-text {
   display: flex;
   gap: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   align-items: center;
   margin-bottom: 3rem;
 }
 .check-icon {
+  font-size: 1.4rem;
   padding: 0.5rem;
   color: #fff;
   background-color: #228be6;
@@ -454,9 +462,9 @@ h2 {
 /* ///////////////////////////////////////// */
 /* SECTION Diverse*/
 /* //////////////////////////////////////////// */
-.section-Diverse {
+/* .section-Diverse {
   margin-bottom: 9.6rem;
-}
+} */
 .diverse-spliter {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -472,16 +480,16 @@ h2 {
 }
 .diverse-text {
   margin: 3.6rem 0 4.6rem 0;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 
 /* ///////////////////////////////////////// */
 /* SECTION KNOWLEDGE AND TESTIMONIES*/
 /* //////////////////////////////////////////// */
-.scetion-Knowledge {
+/* .scetion-Knowledge {
   margin-bottom: 9.6rem;
-}
+} */
 
 .first-knowledge {
   display: flex;
@@ -493,7 +501,7 @@ h2 {
   text-align: center;
 }
 .Knowledge-text-0 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin: 3.2rem auto 5rem auto;
 }
@@ -501,7 +509,7 @@ h2 {
   box-shadow: 5px 5px 10px #d0ebff;
   border-radius: 15px;
   padding: 2rem;
-  max-width: 30rem;
+  width: 36rem;
 }
 .imgPerson {
   display: flex;
@@ -515,20 +523,23 @@ h2 {
   border-radius: 50%;
 }
 .nameOfPerson {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .blue-name {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #228be6;
+  font-weight: 600;
 }
 .actual-testimony {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
+  color: #868e96;
 }
 .test-blue {
   color: #228be6;
+  font-weight: 600;
 }
 .columns-testimonies {
   display: flex;
@@ -536,10 +547,10 @@ h2 {
   gap: 3rem;
 }
 /* for only the 3rd column */
-.T-3-2,
+/* .T-3-2,
 .T-3-1 {
   padding-bottom: 3.2rem;
-}
+} */
 .testimonies {
   display: flex;
   gap: 2rem;
@@ -557,9 +568,9 @@ h2 {
 /* SECTION QUESTIONS*/
 /* //////////////////////////////////////////// */
 
-.section-questions {
+/* .section-questions {
   margin-bottom: 9.6rem;
-}
+} */
 .question-container {
   text-align: center;
   display: flex;
@@ -567,8 +578,8 @@ h2 {
   align-items: center;
 }
 .ques-para-1 {
-  font-size: 1.6rem;
-  line-height: 1.8;
+  font-size: 1.4rem;
+  line-height: 1.6;
   margin-top: 3.2rem;
 }
 .question-block {
@@ -582,12 +593,12 @@ h2 {
 .question-sign {
   display: flex;
   justify-content: space-between;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #228be6;
   font-weight: 600;
 }
 .question-block-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.8;
   margin-top: 2.4rem;
   margin-right: 6.4rem;
@@ -598,7 +609,7 @@ h2 {
   margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.6;
   width: 70rem;
@@ -610,9 +621,9 @@ h2 {
 /* ///////////////////////////////////////// */
 /* SECTION JOIN*/
 /* //////////////////////////////////////////// */
-.section-Join {
+/* .section-Join {
   margin-bottom: 13rem;
-}
+} */
 .join-container {
   display: flex;
   flex-direction: column;
@@ -649,13 +660,13 @@ h2 {
   gap: 10rem;
 }
 .foot-link-header {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 3.4rem;
 }
 .foot-link {
   margin-top: 1.3rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2;
   display: block;
 }
@@ -664,9 +675,5 @@ h2 {
   display: flex;
   justify-content: space-between;
   color: #868e96;
-  font-size: 1.6rem;
-}
-
-.scetion-margin-bottom {
-  margin-bottom: 13rem;
+  font-size: 1.4rem;
 }
