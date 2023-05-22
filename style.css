@@ -68,14 +68,14 @@ h2 {
   display: flex;
   gap: 1rem;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   font-weight: 600;
 }
 .nav-links {
   display: flex;
   gap: 7rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 .nav-link:visited,
@@ -91,7 +91,7 @@ h2 {
 }
 .login-btn:link,
 .login-btn:visited {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   cursor: pointer;
   text-decoration: none;
@@ -160,7 +160,7 @@ h2 {
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 .header-text-1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 3.6rem;
 }
@@ -176,7 +176,7 @@ h2 {
   color: white;
   background-color: #228be6;
   border-radius: 40px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -193,7 +193,7 @@ h2 {
   box-shadow: 2px 2px 2px #ccc;
   color: #555;
   border-radius: 40px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -208,7 +208,7 @@ h2 {
   margin-top: 6.4rem;
 }
 .header-quote-text-1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 2.4rem;
 }
@@ -221,12 +221,12 @@ h2 {
   border-radius: 50%;
 }
 .quote-name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .quote-name-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .header-right {
@@ -286,10 +286,10 @@ h2 {
   align-items: start;
 }
 .study-hours-text-1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .study-hours-text-2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -301,7 +301,7 @@ h2 {
 } */
 .platform-text {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   color: #868e96;
   margin-bottom: 4.2rem;
@@ -330,7 +330,7 @@ h2 {
 .working-Text-0 {
   text-align: center;
   margin-top: 3.6rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
 }
 .working-carts {
@@ -373,8 +373,9 @@ h2 {
 }
 .working-text-2 {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
+  color: #868e96;
 }
 
 /* ///////////////////////////////////////// */
@@ -409,7 +410,7 @@ h2 {
   transform: translate(10%, 50%);
 }
 .motiv-right-text-1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -424,12 +425,12 @@ h2 {
   border-radius: 50%;
 }
 .motiv-right-text-2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .motiv-right-text-3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .motiv-heading {
@@ -437,14 +438,14 @@ h2 {
 }
 
 .motivTexts {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 3.6rem;
 }
 .tick-text {
   display: flex;
   gap: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -480,7 +481,7 @@ h2 {
 }
 .diverse-text {
   margin: 3.6rem 0 4.6rem 0;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
 }
 
@@ -501,7 +502,7 @@ h2 {
   text-align: center;
 }
 .Knowledge-text-0 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin: 3.2rem auto 5rem auto;
 }
@@ -523,18 +524,18 @@ h2 {
   border-radius: 50%;
 }
 .nameOfPerson {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .blue-name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #228be6;
   font-weight: 600;
 }
 .actual-testimony {
-  font-size: 1.4rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.8;
   color: #868e96;
 }
 .test-blue {
@@ -578,7 +579,7 @@ h2 {
   align-items: center;
 }
 .ques-para-1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-top: 3.2rem;
 }
@@ -593,13 +594,13 @@ h2 {
 .question-sign {
   display: flex;
   justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #228be6;
   font-weight: 600;
 }
 .question-block-text {
-  font-size: 1.4rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.6;
   margin-top: 2.4rem;
   margin-right: 6.4rem;
   color: #868e96;
@@ -609,7 +610,7 @@ h2 {
   margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.6;
   width: 70rem;
@@ -660,20 +661,20 @@ h2 {
   gap: 10rem;
 }
 .foot-link-header {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 3.4rem;
 }
 .foot-link {
   margin-top: 1.3rem;
-  font-size: 1.4rem;
-  line-height: 2;
+  font-size: 1.6rem;
+  line-height: 1.6;
   display: block;
 }
 .last-text {
-  margin: 3.8rem 0;
+  margin: 9.6rem 0 3.2rem 0;
   display: flex;
   justify-content: space-between;
   color: #868e96;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
