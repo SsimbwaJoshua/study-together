@@ -287,6 +287,16 @@
     right: 2rem;
     width: 40rem;
   }
+  .header-right-img {
+    height: 43rem;
+    width: 28rem;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .foot-container {
+    padding-top: 4.8rem;
+  }
 }
 
 /* MEDIA QUERY AT 459pxPX */
@@ -341,5 +351,34 @@
   }
   .foot-spliter {
     gap: 3rem;
+  }
+}
+
+/* 370px */
+@media (max-width: 23em) {
+  .motiv-quote {
+    width: 30rem;
+
+    transform: translate(0%, 50%);
+  }
+  .motivation-img {
+    width: 35rem;
+  }
+  .diverse-img {
+    width: 33rem;
+    height: 29rem;
+  }
+}
+/* 319px */
+@media (max-width: 20em) {
+  .motiv-quote {
+    width: 27rem;
+  }
+  .motivation-img {
+    width: 32rem;
+  }
+  .diverse-img {
+    width: 30rem;
+    height: 26rem;
   }
 }
