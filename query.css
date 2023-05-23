@@ -256,4 +256,14 @@
   h2 {
     font-size: 2.8rem;
   }
+  .foot-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-spliter {
+    justify-content: space-around;
+  }
+  .last-text {
+    font-size: 1.2rem;
+  }
 }
