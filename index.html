@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <link href="query.css" rel="stylesheet" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +36,12 @@
               <a href="#" class="nav-link">Study Statistics</a>
             </div>
           </div>
-          <a href="#" class="login-btn">Login</a>
+          <div class="mobile-div">
+            <button class="mobile-btn hidden">
+              <ion-icon name="menu-outline" class="mobile-icon"></ion-icon>
+            </button>
+            <a href="#" class="login-btn">Login</a>
+          </div>
         </nav>
         <div class="header-spliter">
           <div class="header-left">
@@ -61,7 +67,7 @@
               </p>
               <div class="quote-img-and-details">
                 <img
-                  src="images/dummy.jpg"
+                  src="images/pic1.PNG"
                   alt="kassandra"
                   height="40px"
                   width="40px"
@@ -97,8 +103,9 @@
       <section class="platforms scetion-margin-bottom">
         <div class="container">
           <p class="platform-text">
-            Thousands of students and people have made their decisions.<br />Study
-            Together is the best platform for studying
+            Thousands of students and people have made their decisions.<br
+              class="platfrom-break"
+            />Study Together is the best platform for studying
           </p>
           <div class="platform-logos">
             <img
@@ -129,7 +136,7 @@
           <h2 class="working-h2">How It Works</h2>
           <p class="working-Text-0">
             Its time to choose wisely your learning platform. Bimble has
-            professional<br />
+            professional<br class="working-break" />
             mentors and instructors that always helps you to grow your career
           </p>
           <div class="working-carts">
@@ -177,9 +184,10 @@
       </section>
       <section class="section-motivation scetion-margin-bottom">
         <div class="container motivation-spliter">
-          <div>
+          <div class="motive-left">
             <h2 class="motiv-heading">
-              It's Motivation and Scientifically Proven
+              It's Motivation and<br class="motiv-break" />
+              Scientifically Proven
             </h2>
             <div class="motivTexts">
               <p>
@@ -211,7 +219,7 @@
               </p>
               <div class="motiv-quote-person">
                 <img
-                  src="images/dummy.jpg"
+                  src="images/pic1.PNG"
                   alt="kassandra"
                   class="motiv-kassandra-img"
                 />
@@ -229,7 +237,7 @@
       <section class="section-Diverse scetion-margin-bottom">
         <div class="container">
           <div class="diverse-spliter">
-            <div>
+            <div class="diverse-left">
               <img
                 src="images/big3.jpg"
                 alt="people on computer"
@@ -268,7 +276,7 @@
               <div class="test-testimony">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic2.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -286,7 +294,7 @@
               <div class="test-testimony">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic3.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -306,7 +314,7 @@
               <div class="test-testimony">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic4.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -326,7 +334,7 @@
               <div class="test-testimony">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic5.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -345,7 +353,7 @@
               <div class="test-testimony T-3-1">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic6.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -364,7 +372,7 @@
               <div class="test-testimony T-3-2">
                 <div class="imgPerson">
                   <img
-                    src="images/dummy.jpg"
+                    src="images/pic1.PNG"
                     alt="person"
                     class="test-img-person"
                   />
@@ -391,8 +399,8 @@
           <h2>Study Together:<br />Frequently Asked Questions</h2>
           <p class="ques-para-1">
             You will find here the answers to the frequently asked questions and
-            our community<br />guidelines, that allow us to study in a
-            motivating and secure environment.
+            our community<br class="question-break" />guidelines, that allow us
+            to study in a motivating and secure environment.
           </p>
           <div class="question-block">
             <div class="question-sign">
@@ -476,6 +484,8 @@
         </div>
       </section>
     </div>
+    <script src="script.js"></script>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

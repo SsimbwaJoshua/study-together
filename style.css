@@ -36,10 +36,8 @@ h2 {
   /* line-height: 2.6rem; */
 }
 
-.The-whole-page {
-}
 .container {
-  max-width: 120rem;
+  max-width: 1220rem;
   margin: 0 auto;
   padding: 0 6.4rem;
 }
@@ -50,9 +48,29 @@ h2 {
 .header {
   margin: 3rem auto 9.6rem auto;
 }
+.hidden {
+  display: none;
+}
+/* ///////////////////////////////////// */
+/* mobile */
+.mobile-div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.mobile-btn {
+  border: none;
+  background-color: #fff;
+}
+.mobile-icon {
+  font-size: 3rem;
+}
+
+/* //////////////////////////////////////////////////////// */
 .navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 9.6rem;
 }
 .left-nav {
@@ -384,6 +402,9 @@ h2 {
 /* .section-motivation {
   margin-bottom: 13rem;
 } */
+.motiv-break {
+  display: none;
+}
 .motivation-spliter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -413,6 +434,7 @@ h2 {
   font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  color: #868e96;
 }
 .motiv-quote-person {
   display: flex;
@@ -438,9 +460,10 @@ h2 {
 }
 
 .motivTexts {
-  font-size: 1.8rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.8;
   margin-bottom: 3.6rem;
+  color: #868e96;
 }
 .tick-text {
   display: flex;
@@ -511,6 +534,10 @@ h2 {
   border-radius: 15px;
   padding: 2rem;
   width: 36rem;
+  transition: 10ms;
+}
+.test-testimony:hover {
+  transform: scale(1.05);
 }
 .imgPerson {
   display: flex;
