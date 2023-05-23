@@ -135,6 +135,7 @@
   .motivation-spliter {
     grid-template-columns: 1fr;
     gap: 9.6rem;
+    /* margin-bottom: 18rem; */
   }
   .diverse-img {
     width: 50rem;
@@ -380,5 +381,21 @@
   .diverse-img {
     width: 30rem;
     height: 26rem;
+  }
+  .main-heading {
+    font-size: 4.2rem;
+  }
+  .blue-heading::before {
+    left: 6rem;
+    width: 23rem;
+  }
+  .blue-heading:after {
+    left: 6rem;
+    width: 23rem;
+  }
+
+  .main-heading::after {
+    right: 0;
+    width: 33rem;
   }
 }

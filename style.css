@@ -408,6 +408,7 @@ h2 {
 .motivation-spliter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 18rem;
 }
 .motivation-img {
   width: 50rem;
