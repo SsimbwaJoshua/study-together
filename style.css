@@ -37,7 +37,7 @@ h2 {
 }
 
 .container {
-  max-width: 1220rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 6.4rem;
 }
@@ -645,6 +645,9 @@ h2 {
   border-radius: 15px;
   padding: 2.4rem;
 }
+/* .question-icon {
+  font-size: 1.8rem;
+} */
 
 /* ///////////////////////////////////////// */
 /* SECTION JOIN*/

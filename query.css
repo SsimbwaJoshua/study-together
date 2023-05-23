@@ -213,6 +213,9 @@
   .question {
     width: 85%;
   }
+  .question-block-text {
+    margin-right: 1rem;
+  }
 }
 
 /* MEDIA QUERY AT 544pxPX */
@@ -256,6 +259,9 @@
   h2 {
     font-size: 2.8rem;
   }
+  .main-heading {
+    font-size: 4.4rem;
+  }
   .foot-right {
     display: flex;
     flex-direction: column;
@@ -264,6 +270,76 @@
     justify-content: space-around;
   }
   .last-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    gap: 3rem;
+  }
+  /* ///////////// */
+  .blue-heading::before {
+    left: 6rem;
+    width: 30rem;
+  }
+  .blue-heading:after {
+    left: 6rem;
+    width: 30rem;
+  }
+
+  .main-heading::after {
+    right: 2rem;
+    width: 40rem;
+  }
+}
+
+/* MEDIA QUERY AT 459pxPX */
+@media (max-width: 29em) {
+  .platform-logos {
+    grid-template-columns: 1fr;
+  }
+  .Knowledge-break,
+  .motivation-break {
+    display: none;
+  }
+  .motivation-img {
+    width: 38rem;
+  }
+  .diverse-img {
+    width: 36rem;
+    height: 32rem;
+  }
+  .question-block-text {
+    margin-right: 0.5rem;
+  }
+  .join-break,
+  .head-break {
+    display: none;
+  }
+
+  .blue-heading::before {
+    left: 6rem;
+    width: 25rem;
+  }
+  .blue-heading:after {
+    left: 6rem;
+    width: 25rem;
+  }
+
+  .main-heading::after {
+    right: 2rem;
+    width: 33rem;
+  }
+  .head-btns,
+  .join-btns {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* width: 20rem; */
+    justify-content: center;
+    gap: 3rem;
+  }
+  .head-btn-1,
+  .head-btn-2 {
+    justify-self: center;
+    width: 20rem;
+  }
+  .foot-spliter {
+    gap: 3rem;
   }
 }
