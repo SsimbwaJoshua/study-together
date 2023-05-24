@@ -60,16 +60,24 @@
     position: relative;
   }
   .nav-links {
-    display: none;
+    width: 50%;
     flex-direction: column;
     gap: 1rem;
-    background-color: red;
+    background-color: #a5d8ff;
     padding: 2rem 3rem;
     border-radius: 5px;
     position: absolute;
     right: 0;
     top: 4rem;
+
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
   }
+  .nav-link {
+    border-bottom: 1px solid #ccc;
+  }
+
   /* ////////////////////////////////// */
   .header-spliter {
     grid-template-columns: 1fr;
