@@ -1,7 +1,9 @@
+"use-strict";
+
 const mobileBtn = document.querySelector(".mobile-btn");
-const navLinks = document.querySelector(".nav-link");
+const navLinks = document.querySelector(".nav-links");
 
 mobileBtn.addEventListener("click", () => {
   console.log("clicked");
-  navLinks.classList.toggle("hidden");
+  navLinks.classList.toggle("menu-open");
 });
