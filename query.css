@@ -84,16 +84,19 @@
   .nav-link {
     border-bottom: 1px solid #ccc;
   }
-  /* bring back the menu */
-  .mobileBtn-color {
-    color: #228be6;
+  .foot-link {
+    border: none;
   }
+  /* bring back the menu */
   .menu-open {
     pointer-events: auto;
     visibility: visible;
     opacity: 1;
   }
   /* when clicked menu-color */
+  .mobileBtn-color {
+    color: #228be6;
+  }
 
   /* ////////////////////////////////// */
   .header-spliter {
@@ -369,7 +372,8 @@
   .head-btn-1,
   .head-btn-2 {
     justify-self: center;
-    width: 20rem;
+    width: 30rem;
+    text-align: center;
   }
   .foot-spliter {
     gap: 3rem;

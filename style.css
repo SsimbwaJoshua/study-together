@@ -535,7 +535,7 @@ h2 {
   border-radius: 15px;
   padding: 2rem;
   width: 36rem;
-  transition: 10ms;
+  transition: 0.5s;
 }
 .test-testimony:hover {
   transform: scale(1.05);
@@ -645,6 +645,10 @@ h2 {
   border: 1px solid #dee2e6;
   border-radius: 15px;
   padding: 2.4rem;
+  transition: 0.5s;
+}
+.question:hover {
+  transform: scale(1.1rem);
 }
 /* .question-icon {
   font-size: 1.8rem;
