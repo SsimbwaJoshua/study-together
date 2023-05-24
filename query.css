@@ -85,6 +85,9 @@
     border-bottom: 1px solid #ccc;
   }
   /* bring back the menu */
+  .mobileBtn-color {
+    color: #228be6;
+  }
   .menu-open {
     pointer-events: auto;
     visibility: visible;
