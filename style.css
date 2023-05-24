@@ -648,7 +648,7 @@ h2 {
   transition: 0.5s;
 }
 .question:hover {
-  transform: scale(1.1rem);
+  transform: scale(1.05);
 }
 /* .question-icon {
   font-size: 1.8rem;
